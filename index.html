@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Microprocessor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px #00000088;
+      border-bottom: 2px solid #ffffff33;
+      padding-bottom: 10px;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .video-container {
+      position: relative;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #00000055;
+    }
+
+    .link-box {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ffffffdd;
+      color: #000;
+      text-align: center;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 0 5px #00000044;
+      width: 200px;
+      transition: background-color 0.2s;
+    }
+
+    .link-box:hover {
+      background-color: #f0f0f0;
+    }
+
+    .display-box {
+      width: 300px;
+      height: 300px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #ffffffee;
+      color: #000;
+      overflow-y: auto;
+      box-shadow: 0 0 8px #00000055;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hockey Bot for Microprocessor</h1>
+
+  <div class="main-container">
+    <div class="video-container">
+      <video controls>
+        <source src="hockey.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <a href="https://bit.ly/44J3oax" target="_blank" class="link-box">Link to GitHub</a>
+    </div>
+
+    <div class="display-box">
+ESP32-Based Bluetooth-Controlled Hockey Bot
+
+This project demonstrates the manual control of a Hockey Bot using the ESP32 microcontroller and Bluetooth.
+
+Key Features:
+- Remote control via smartphone app
+- Responsive DC motor movement for hockey gameplay
+- ESP32 handles Bluetooth communication and motor logic
+- Designed for interactive and competitive robot hockey
+
+Technologies Used:
+- ESP32 Microcontroller
+- HC-05/BT Module (or onboard ESP32 Bluetooth)
+- L298N Motor Driver
+- Arduino IDE for firmware development
+
+After testing, the Hockey Bot is capable of performing its assigned function, but its effectiveness is below competitive level and is more ideal for recreational use only.
+    </div>
+  </div>
+
+</body>
+</html>
